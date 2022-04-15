@@ -1,0 +1,28 @@
+  
+  .image {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 16px;
+  }
+  
+  .favourite {
+    padding: 10px;
+  }
+  
+  .favourite {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    display: flex;
+    top: 0;
+    right: 0;
+    fill: #ffffff;
+  }
+  
+  .checked {
+    fill: #f44336;
+    stroke: #f44336;
+  }
+
+  

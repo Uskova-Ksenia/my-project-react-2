@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5em;
+}
+ 
+.container {
+  padding: 24px 0;
+  --gutter: 16px;
+  width: 1024px;
+  max-width: calc(100% - var(--gutter) * 2);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pages {
+  padding: 24px 0;
+}
+
